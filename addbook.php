@@ -16,7 +16,7 @@ require('addbooks.php');
 		<label>Title:</label> <input type="text" name="title" placeholder = "title" required/><br />
 		<label>Pages:</label> <input type="number" min=1 name="pages" placeholder = "name" required/><br />
 		<label>Author:</label> <input type="text" name="author" placeholder = "author" required/><br />
-		<label>Published Year:</label> <input type="text" name="year" placeholder = "year" required/>
+		<label>Published Year:</label> <input type="text" name="year" required/>
         <div><br/></div>
     <input style="float:right" type="submit" value="Add Book"  name="submit"/>
     </fieldset>
