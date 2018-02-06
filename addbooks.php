@@ -10,4 +10,4 @@
     $conn->close();   
 	echo '<script>alert("Succesfully Added!"); window.location.href="addbook.php"</script>';	
 }
-?>
+?> 
