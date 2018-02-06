@@ -9,5 +9,5 @@
     $query = $conn -> query ("INSERT INTO `books`(`title`, `pages`, `author`, `year`) VALUES ('$title', '$pages', '$author', '$year')") or die (mysqli_error());
     $conn->close();   
 	echo '<script>alert("Succesfully Added!"); window.location.href="addbook.php"</script>';	
-}
+} 
 ?> 
