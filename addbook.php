@@ -21,7 +21,7 @@ require('addbooks.php');
     <input style="float:right" type="submit" value="Add Book"  name="submit"/>
     </fieldset>
     <h3>List of Stored Books</h3>
-    <table border="2" align="center" cellpadding=5>
+    <table border="2" align="center" cellpadding=5> 
             <thead>
                 <tr><th>Title</th>
                     <th>Pages</th>
