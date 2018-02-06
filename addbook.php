@@ -9,7 +9,7 @@ require('addbooks.php');
 </head>
 
 <body>
-	<form action="addbook.php" method="post">
+	<form action="addbook.php" method="post">  
 	<h1>Library Database</h1>
 	<fieldset>
 		<legend>Book Information</legend>
